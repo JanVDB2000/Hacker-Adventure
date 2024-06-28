@@ -14,10 +14,8 @@ The Hacker Adventure Discord Bot is an interactive and immersive experience desi
 - **Events:** Encounter dynamic events that impact your progress and reputation.
 - **Leaderboards:** Compete with fellow hackers and see who reigns supreme.
 
-
-## WIP
+#### WIP
 - **Quest:** Daily/Weekly task that you can complete.
-
 
 ## Commands
 * **!hack**: Initiate a hacking attempt.
@@ -31,6 +29,40 @@ The Hacker Adventure Discord Bot is inspired by the fascinating world of hacking
 Happy hacking! 🌐💻🔐
 
 Customize the content based on your specific implementation, and make sure to include information about how users can set up and run the bot.
+
+## Installation and Setup
+Follow these steps to set up and run the bot.
+
+### Step 1: Prerequisites
+Make sure you have the following software installed on your system:
+
+* PHP
+* Composer
+* Discord Bot Token (You can obtain this by creating a bot on the Discord Developer Portal).
+
+### Step 2: Download Files
+Download or clone the source files of the Hacker Adventure Discord Bot to your local machine.
+
+`git clone https://github.com/JanVDB2000/Hacker-Adventure`
+
+### Step 3: Install Dependencies
+Navigate to the directory where you downloaded the files and install the required dependencies using Composer.
+
+`cd Hacker-Adventure
+composer install`
+
+### Step 4: Configuration
+Create a .env file in the root directory of your project and add your Discord Bot Token.
+
+
+`SECRET_KEY=your-discord-bot-token`
+
+### Step 5: Start Hacker-Adventure Bot
+To run the bot, use the following command in your terminal:
+
+`php index.php`
+
+You should now see a confirmation message indicating that the bot is active and connected to your Discord server.
 
 ## Makers
 Special thanks to the makers and contributors who brought the Hacker Adventure Discord Bot to life:
