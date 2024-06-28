@@ -1,0 +1,19 @@
+{
+    "require": {
+        "team-reflex/discord-php": "^7.3",
+        "vlucas/phpdotenv": "^5.6",
+        "gabordemooij/redbean": "^5.7",
+        "symfony/monolog-bundle": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "src/Classes/",
+            "Events\\": "src/Events/",
+            "AbstractClasses\\": "src/AbstractClasses/",
+            "Interfaces\\": "src/Interfaces/",
+            "Services\\": "src/Services/",
+            "Commands\\": "src/commands",
+            "CommandsViews\\": "templates/views"
+        }
+    }
+}
