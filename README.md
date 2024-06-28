@@ -15,6 +15,10 @@ The Hacker Adventure Discord Bot is an interactive and immersive experience desi
 - **Leaderboards:** Compete with fellow hackers and see who reigns supreme.
 
 
+## WIP
+- **Quest:** Daily/Weekly task that you can complete.
+
+
 ## Commands
 * **!hack**: Initiate a hacking attempt.
 * **!use**: View available items.
